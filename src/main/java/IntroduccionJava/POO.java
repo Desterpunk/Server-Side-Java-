@@ -4,9 +4,14 @@ public class POO {
     public static void main(String[] args) {
 //        Pelota p = new Pelota(300,300);
 //        System.out.println("peso de la pelota:  = " + p.getPeso());
-        Carro carro = new Carro();
-        carro.encender();
-        carro.estado();
+//        Carro carro = new Carro();
+//        carro.encender();
+//        carro.estado();
+//        CarroBMW carroBMW = new CarroBMW();
+//        carroBMW.turbo();
+//        carroBMW.estado();
+        CarroToyota carroToyota = new CarroToyota();
+        System.out.println("Modelo carroToyota = " + carroToyota.obtenerModelo());
     }
 }
 
@@ -65,5 +70,27 @@ class Carro {
         } else {
             System.out.println("El carro esta apagado");
         }
+    }
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
+    public String obtenerModelo() {
+        return modelo;
+    }
+}
+
+class CarroBMW extends Carro {
+    public CarroBMW() {
+        this.setModelo("BMW");
+    }
+    public void turbo(){
+        System.out.println("Turbo activado!");
+    }
+}
+
+class CarroToyota extends Carro {
+    public CarroToyota() {
+        this.setModelo("Toyota");
     }
 }
