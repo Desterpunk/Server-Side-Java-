@@ -1,0 +1,3 @@
+Esto es un archivo de texto
+Esto es la segunda linea de texto
+Esta es la tercera linea de texto
