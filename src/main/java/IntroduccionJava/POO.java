@@ -10,8 +10,10 @@ public class POO {
 //        CarroBMW carroBMW = new CarroBMW();
 //        carroBMW.turbo();
 //        carroBMW.estado();
-        CarroToyota carroToyota = new CarroToyota();
-        System.out.println("Modelo carroToyota = " + carroToyota.obtenerModelo());
+//        CarroToyota carroToyota = new CarroToyota();
+//        System.out.println("Modelo carroToyota = " + carroToyota.obtenerModelo());
+        Carro carro = new CarroToyota();
+        carro.informacion();
     }
 }
 
@@ -78,6 +80,9 @@ class Carro {
     public String obtenerModelo() {
         return modelo;
     }
+    public void informacion() {
+        System.out.println("Este es un carro comun y corriente");
+    }
 }
 
 class CarroBMW extends Carro {
@@ -87,10 +92,20 @@ class CarroBMW extends Carro {
     public void turbo(){
         System.out.println("Turbo activado!");
     }
+
+    @Override
+    public void informacion() {
+        System.out.println("Este es un BMW del año 2011");
+    }
 }
 
 class CarroToyota extends Carro {
     public CarroToyota() {
         this.setModelo("Toyota");
+    }
+
+    @Override
+    public void informacion() {
+        System.out.println("Este es un Toyota del año 2010");
     }
 }
