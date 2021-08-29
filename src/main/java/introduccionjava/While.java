@@ -1,4 +1,4 @@
-package IntroduccionJava;
+package introduccionjava;
 
 public class While {
     public static void main(String[] args) {

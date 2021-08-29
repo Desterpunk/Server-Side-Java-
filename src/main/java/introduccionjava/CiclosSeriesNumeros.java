@@ -1,4 +1,4 @@
-package IntroduccionJava;
+package introduccionjava;
 
 public class CiclosSeriesNumeros {
     public static void main(String[] args) {

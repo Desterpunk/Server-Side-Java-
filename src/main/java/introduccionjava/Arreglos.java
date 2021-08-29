@@ -1,4 +1,4 @@
-package IntroduccionJava;
+package introduccionjava;
 
 public class Arreglos {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package IntroduccionJava;
+package introduccionjava;
 
 import java.io.*;
 

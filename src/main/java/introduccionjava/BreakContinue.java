@@ -1,4 +1,4 @@
-package IntroduccionJava;
+package introduccionjava;
 
 public class BreakContinue {
     public static void main(String[] args) {
