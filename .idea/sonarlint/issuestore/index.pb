@@ -9,3 +9,7 @@ X
 gradlew.bat,2\a\2a45a911a8f1836b0b6c5b758962572012d8f8c3
 ?
 settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
+^
+.src/main/java/IntroduccionJava/Variables1.java,4\f\4ff2a901e4934d3aab3bc5eccc1c349929837f7a
+Z
+*src/main/java/IntroduccionJava/IfElse.java,5\3\53ceb142bd22e153b1a4d6bbe907a64ece0d26ca
